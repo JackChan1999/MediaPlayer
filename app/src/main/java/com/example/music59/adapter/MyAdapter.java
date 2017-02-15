@@ -1,16 +1,36 @@
 package com.example.music59.adapter;
 
-import com.example.music59.R;
-import com.example.music59.bean.Music;
-import com.example.music59.utils.MediaUtils;
-
 import android.content.Context;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.example.music59.R;
+import com.example.music59.bean.Music;
+import com.example.music59.utils.MediaUtils;
+
+/**
+ * ============================================================
+ * Copyright：${TODO}有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：MediaPlayer
+ * Package_Name：com.example.music59
+ * Version：1.0
+ * time：2016/2/15 12:44
+ * des ：手机影音
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 
 public class MyAdapter extends BaseAdapter {
 	//1.数据源在什么地方 datasource

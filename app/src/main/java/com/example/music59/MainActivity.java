@@ -40,6 +40,27 @@ import com.example.music59.views.LyricShow;
 import com.example.music59.views.ScrollableViewGroup;
 import com.example.music59.views.ScrollableViewGroup.OnCurrentViewChangedListener;
 
+/**
+ * ============================================================
+ * Copyright：${TODO}有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：MediaPlayer
+ * Package_Name：com.example.music59
+ * Version：1.0
+ * time：2016/2/15 12:44
+ * des ：手机影音 主界面
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class MainActivity extends Activity implements OnClickListener {
 
 	private TextView mTv_curduration;
@@ -355,7 +376,6 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	/**
 	 * 修改颜色.只要我们的curPostion修改了.那么颜色值就需要修改
-	 * @param color
 	 */
 	public void changeColorWhite() {
 		TextView tv = (TextView) mLv_list.findViewWithTag(MediaUtils.CURPOSITION);
